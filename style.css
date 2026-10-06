@@ -4,17 +4,23 @@ body {
     background-color: #e1e0dc;
 
 }
+
+/* ambos -------------------------------------------- */
 main {
     display: flex;
+    flex-direction:row;
     padding: 1em 5rem;
     margin-top: 10rem;
 }
-
-#esquerda {
-    margin: 0;
+.esquerda {
+    margin: 0px;
     padding: auto;
 }
-#titulo_principal{
+.direita {
+    margin:0px;
+    max-width: 50%;
+}
+h1.titulo_principal{
     color: black;
     font-size: 128px;
     margin: 0px;
@@ -28,29 +34,65 @@ h2 {
     font-size: 64px;
     color: #6b6b69;
 }
-
-#botoes {
+.botoes {
     width: max-content;
     color: #6b6b69;
     padding: 1rem;
     background-color: black;
 }
-
 a{
+    text-decoration-line: none;
     color: #c6c6c1;
     margin: 0px 0rem;
     padding: 0.5em 1em;
     font-size: 20px;
 }
-#direita {
-    margin:auto;
-    width: auto;
+/* -------------------------------------------- */
+/* p1 */
+/* p2 */
+p.p2{
+    text-align: justify;
+    font-size:1.5em;
+    width: 40rem;
 }
+hr.p2{
+    margin: 0%;
+    width: 40em;
+}
+/* -------------------------------------------- */
+/* p3 */
+#p3.direita{
+    /* margin: 10px; */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    /* align-items: center; */
 
-/* footer {
-    color: black;
-    border: 100px solid black;
-    width: 100%;
-    height: 10px;
-} */
- 
+}
+h1.p3{
+    margin: 1em;
+    width: 20em;
+    font-size: 2em;
+}
+h2.p3{
+    margin: 1em;
+    width: auto;
+    height: auto;
+    font-size: 1.5em;
+}
+div.embaixo{
+    text-align: center;
+}
+p{
+    margin: 0px;
+}
+#nome{
+    font-size: 2em;
+}
+#cidade{
+    font-size: 1.5em;
+}
+#numero{
+    font-size: 1.5em;
+    margin-top: 1em;
+}
