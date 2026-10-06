@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    background-color: #e1e0dc;
+    width: 300px;       /* Largura obrigatória */
+    margin-left: 20px;  
+    margin-right: 20px; /* Ou simplesmente margin: 0 auto; */
+
+}
+
+h1{
+    color: black;
+    font-size: 128px;
+}
+
+h2 {
+    color: #6b6b69;
+}
+nav {
+    width: 350px;
+    color: #6b6b69;
+    background-color: black;
+    margin: 10px;
+}
+
+a{
+    color: #6b6b69;
+    margin: 10px;
+}
