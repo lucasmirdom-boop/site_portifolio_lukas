@@ -2,28 +2,55 @@
 
 body {
     background-color: #e1e0dc;
-    width: 300px;       /* Largura obrigatória */
-    margin-left: 20px;  
-    margin-right: 20px; /* Ou simplesmente margin: 0 auto; */
 
 }
+main {
+    display: flex;
+    padding: 1em 5rem;
+    margin-top: 10rem;
+}
 
-h1{
+#esquerda {
+    margin: 0;
+    padding: auto;
+}
+#titulo_principal{
     color: black;
     font-size: 128px;
-}
+    margin: 0px;
+
+    }
 
 h2 {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 1.5rem;
+    font-size: 64px;
     color: #6b6b69;
 }
-nav {
-    width: 350px;
+
+#botoes {
+    width: max-content;
     color: #6b6b69;
+    padding: 1rem;
     background-color: black;
-    margin: 10px;
 }
 
 a{
-    color: #6b6b69;
-    margin: 10px;
+    color: #c6c6c1;
+    margin: 0px 0rem;
+    padding: 0.5em 1em;
+    font-size: 20px;
 }
+#direita {
+    margin:auto;
+    width: auto;
+}
+
+/* footer {
+    color: black;
+    border: 100px solid black;
+    width: 100%;
+    height: 10px;
+} */
+ 
