@@ -96,3 +96,59 @@ p{
     font-size: 1.5em;
     margin-top: 1em;
 }
+/* -------------------------------------------- */
+/* p4 */
+.cima{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+h1.p4{
+    width: 100%;
+    color: black;
+    font-size: 8.5em;
+    margin: 0px;
+}
+
+h2.p4{
+    width: 100%;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 0px;
+    /* margin-bottom: 1.5rem; */
+    font-size: 2.5em;
+    color: #6b6b69;
+}
+
+table{
+    text-align: center;
+    /* padding: 0px; */
+    margin: 0px auto;
+    /* width: 0px;
+    height: 0px; */
+    border-spacing: 30px;
+
+}
+th, td{
+    padding: 5px;
+    /* border: 1px solid #ccc */
+}
+.projetos{
+    position: relative;
+
+}
+.titulo_projeto{
+    width: auto;
+    padding: 1em;
+    position: absolute;
+    bottom: -1em;
+    
+    left: 50%;
+    transform: translateX(-50%);
+
+    white-space: nowrap;
+
+    color: white;
+    background-color: black;
+
+}
+/* -------------------------------------------- */
