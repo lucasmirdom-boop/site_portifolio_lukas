@@ -7,6 +7,7 @@ body {
 
 /* ambos -------------------------------------------- */
 main {
+    margin-top: 2%;
     display: flex;
     flex-direction:row;
     padding: 1em 5rem;
@@ -47,14 +48,39 @@ a{
     padding: 0.5em 1em;
     font-size: 20px;
 }
+img{
+    border-radius: 2%;
+}
 /* -------------------------------------------- */
-/* p1 */
+/* p1 INDEX */
+main.p1{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+
+}
+/* -------------------------------------------- */
+
 /* p2 -- SOBRE --*/
+main.p2#cima{
+    margin-top: 2%;
+}
 body.p2{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+.voltar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    font-size: 40px;
+    color: #6b6b69;
+    text-decoration: none;
+
+    z-index: 10;
 }
 #p2.direita{
     margin-left: 1em;
@@ -145,16 +171,15 @@ p.corpo_caixa{
 }
 
 /* -------------------------------------------- */
-/* p3 */
+/* p3 -- CONTATO --*/
 #p3.direita{
-    /* margin: 10px; */
     display: flex;
     flex-direction:column;
     justify-content: center;
-    /* align-items: center; */
 }
 h1.p3{
     margin: 1em;
+    margin-bottom: 0px;
     width: 20em;
     font-size: 2em;
 }
@@ -180,12 +205,22 @@ p{
     font-size: 1.5em;
     margin-top: 1em;
 }
+
 /* -------------------------------------------- */
-/* p4 */
+/* p4 PORTFOLIO */
 .cima{
     text-align: center;
     width: 100%;
     margin: auto;
+}
+.cima a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    color: #6b6b69;
+    font-size: 30px;
+    text-decoration: none;
 }
 h1.p4{
     width: 100%;
@@ -198,23 +233,18 @@ h2.p4{
     width: 100%;
     font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px 0px;
-    /* margin-bottom: 1.5rem; */
     font-size: 2.5em;
     color: #6b6b69;
 }
 
 table{
     text-align: center;
-    /* padding: 0px; */
     margin: 0px auto;
-    /* width: 0px;
-    height: 0px; */
     border-spacing: 30px;
 
 }
 th, td{
     padding: 5px;
-    /* border: 1px solid #ccc */
 }
 .projetos{
     position: relative;
