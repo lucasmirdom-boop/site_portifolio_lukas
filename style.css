@@ -49,7 +49,19 @@ a{
 }
 /* -------------------------------------------- */
 /* p1 */
-/* p2 */
+/* p2 -- SOBRE --*/
+body.p2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#p2.direita{
+    margin-left: 1em;
+}
+#p2.esquerda{
+    margin: 1em;
+}
 p.p2{
     text-align: justify;
     font-size:1.5em;
@@ -59,6 +71,63 @@ hr.p2{
     margin: 0%;
     width: 40em;
 }
+img.p2{
+    width: 50em;
+    height: 50em;
+}
+
+/* main#linha_do_tempo.p2{
+    display: flex;
+} */
+
+.linha_vertical{
+  height: 200px; /* Altere a altura conforme necessário */
+  border-left: 2px solid #000; /* Espessura, estilo e cor da linha */
+  margin: 0em 1em;
+}
+div.caixa{
+    background-color: black;
+    width: auto;
+    height: fit-content;
+    padding: 1em;
+    margin: 1em;
+}
+div.data{
+    width: auto;
+    height: fit-content;
+    padding: 1em;
+    margin: 1em;
+}
+p.escrita_data{
+    white-space: nowrap;
+    font-size: 2.5em;
+}
+p.titulo_caixa{
+    white-space: nowrap;
+    color: white;
+    font-size: 3em;
+}
+p.corpo_caixa{
+    white-space: nowrap;
+    color: white;
+    font-size: 2.3em;
+}
+
+/* COMEÇAR A MEXER AQUI: */
+
+#esquerda_linha_do_tempo{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#direita_linha_do_tempo{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
 /* -------------------------------------------- */
 /* p3 */
 #p3.direita{
@@ -67,7 +136,6 @@ hr.p2{
     flex-direction:column;
     justify-content: center;
     /* align-items: center; */
-
 }
 h1.p3{
     margin: 1em;
