@@ -45,6 +45,17 @@ a{
 img{
     border-radius: 2%;
 }
+a.voltar {
+    /* position: absolute;
+    top: 20px;
+    left: 20px; */
+
+    font-size: 20px;
+    color: #6b6b69;
+    text-decoration: none;
+
+    z-index: 10;
+}
 /* -------------------------------------------- */
 /* p1 INDEX */
 main.p1{
@@ -84,17 +95,7 @@ body.p2{
     flex-direction: column;
     align-items: center;
 }
-.voltar {
-    position: absolute;
-    top: 20px;
-    left: 20px;
 
-    font-size: 40px;
-    color: #6b6b69;
-    text-decoration: none;
-
-    z-index: 10;
-}
 #p2.direita{
     margin-left: 1em;
 }
@@ -105,14 +106,15 @@ p.p2{
     text-align: justify;
     font-size:1.5em;
     width: 40rem;
+    text-indent: 40px
 }
 hr.p2{
     margin: 0%;
     width: 40em;
 }
 img.p2{
-    width: 400px;
-    height: 585px;
+    width: auto;
+    height: auto;
 }
 
 h1.linha_do_tempo{
@@ -225,6 +227,7 @@ p{
     text-align: center;
     width: 100%;
     margin: auto;
+    margin-top: 0.8vw;
 }
 .cima a {
     position: absolute;
@@ -277,5 +280,9 @@ th, td{
     color: white;
     background-color: black;
 
+}
+.imag_p4{
+    width: 262px;
+    height: 234px;
 }
 /* -------------------------------------------- */
